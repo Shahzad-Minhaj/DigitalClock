@@ -40,7 +40,7 @@ To use this clock, simply include the provided HTML, CSS, and JavaScript code in
 </script>
 ```
 
-##Installation
+## Installation
 
 -    Clone the repository to your local machine:
       git clone https://github.com/your-username/real-time-clock.git
@@ -48,7 +48,7 @@ To use this clock, simply include the provided HTML, CSS, and JavaScript code in
 -    Open the HTML file in a web browser to view the real-time clock.
 
 
-##Contact
+## Contact
 
 For questions or feedback, please contact [Shahzad Minhaj] via [sminhaj.suit@email.com].
 
