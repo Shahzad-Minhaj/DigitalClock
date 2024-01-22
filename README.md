@@ -38,6 +38,7 @@ To use this clock, simply include the provided HTML, CSS, and JavaScript code in
 <script>
     // Include the provided JavaScript code
 </script>
+```
 
 ##Installation
 
