@@ -1,0 +1,33 @@
+html{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: lato;
+}
+table{ 
+    margin: 0 auto;
+    
+}
+
+#hour, #mins, #sec{
+    font-size: 58px;
+    font-weight: bolder;
+}
+#year, #day, #month{
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 460px;
+    background-color: green;
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px;
+
+
+}
+#tab1{
+    margin-top: 210px;
+}
