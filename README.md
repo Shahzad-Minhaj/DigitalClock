@@ -39,7 +39,7 @@ To use this clock, simply include the provided HTML, CSS, and JavaScript code in
     // Include the provided JavaScript code
 </script>
 ```
-to visit the (Digital Clock)[http://digiwatch.surge.sh]
+to visit the [Digital Clock](http://digiwatch.surge.sh)
 
 ## Installation
 
