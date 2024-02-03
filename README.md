@@ -50,6 +50,6 @@ To use this clock, simply include the provided HTML, CSS, and JavaScript code in
 
 ## Contact
 
-For questions or feedback, please contact [Shahzad Minhaj] via [sminhaj.suit@email.com].
+For questions or feedback, please contact Shahzad Minhaj via sminhaj.suit@email.com.
 
 Enjoy your real-time clock web app!
