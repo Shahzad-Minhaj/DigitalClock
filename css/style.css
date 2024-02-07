@@ -1,4 +1,4 @@
-html{
+ main{
     background-color: black;
     color: white;
     text-align: center;
@@ -8,8 +8,15 @@ table{
     margin: 0 auto;
     
 }
+h1{
+  border-bottom: 2px solid greenyellow;
+  box-shadow: 0 2px 5px green;
+}
 #tab1{
-    margin-top: 130px;
+    padding-top: 50px;
+}
+#tab2{
+  padding-bottom: 50px;
 }
 #hour, #mins, #sec{
     font-size: 58px;
@@ -21,64 +28,89 @@ table{
 }
 
 main{
-    min-height: 40vh;
+    min-height: 65vh;
     align-items: center;
 }
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-info,
+.social-links,
+.footer-links {
+  flex: 1;
+  margin: 10px;
+}
+.contact-info a{
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+}
+.contact-info a:hover{
+  text-decoration: underline;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.copyright p {
+  font-size: 14px;
+  color: #ccc;
+}
+.social-media-button{
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  outline: 2px solid white;
+  cursor: pointer;
+  transition: all 0.3s;
   
-  .footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .contact-info,
-  .social-links,
-  .footer-links {
-    flex: 1;
-    margin: 10px;
-  }
-  .contact-info a{
-    text-decoration: none;
-    color: white;
-    font-size: medium;
-  }
-  .contact-info a:hover{
-    text-decoration: underline;
-  }
-  
-  .contact-info p {
-    margin: 5px 0;
-  }
-  
-  .social-links a {
-    font-size: 24px;
-    color: #fff;
-    margin: 0 10px;
-    text-decoration: none;
-  }
-  
-  .footer-links a {
-    color: #fff;
-    text-decoration: none;
-    display: block;
-    margin: 5px 0;
-  }
-  
-  .footer-links a:hover {
-    text-decoration: underline;
-  }
-  
-  .copyright {
-    margin-top: 20px;
-  }
-  
-  .copyright p {
-    font-size: 14px;
-    color: #ccc;
-  }
+}
+.social-media-buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.social-media-button:hover{ 
+  outline-offset: 3px;
+  transition: all 0.3s;
+
+}
+.social-media-button:hover:nth-child(2){
+  background-color: blue;
+}

@@ -6,8 +6,10 @@ function updateTime() {
     document.getElementById("hour").innerHTML = nowDate.getHours();
     document.getElementById("mins").innerHTML = nowDate.getMinutes();
     document.getElementById("sec").innerHTML = nowDate.getSeconds();
+    document.getElementById("year").innerHTML = nowDate.getFullYear();
     const fullDate = dayNames[nowDate.getDay()] + ", " + nowDate.getDate() + " " + monthNames[nowDate.getMonth()] + ", " + nowDate.getFullYear();
         document.getElementById("fullDate").innerHTML = fullDate;
+    
     }
 
     // Update time every second (1000 milliseconds)
